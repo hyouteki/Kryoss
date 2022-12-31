@@ -132,6 +132,11 @@ exit<br>
 *command number*<br>
 contains the number of currently executing command<br>
 
+*coverage*<br>
+contains flag indicating whether to generate a coverage file or not<br>
+[ 0]: false<br>
+[ 1]: true<br>
+
 # Execution command
 
 ## Step1
