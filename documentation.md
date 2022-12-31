@@ -57,7 +57,7 @@ ask string1<br>
 *syntax ~ `; type here anything`*<br>
 ; hello fellas<br>
 
-*marking a stage in code*<br>
+*marking a point in code*<br>
 *syntax ~ `mark <mark>`*<br>
 mark hello <br>
 
