@@ -2,7 +2,7 @@
 # Code examples
 
 *defining and initializing variables at same time*<br>
-*syntax ~ let `variable` `datatype` = `value`* <br>
+*syntax ~ `let <variable> <datatype> = <value>`* <br>
 let string1 string = abc<br>
 let num1 int = 0<br>
 let num2 int = 1<br>
@@ -15,7 +15,7 @@ let boolean1 boolean = false<br>
 let nothing1 nothing = null<br>
 
 *defining variables*<br>
-*syntax ~ let `variable` `datatype`*<br>
+*syntax ~ `let <variable> <datatype>`*<br>
 let string2 string<br>
 let num4 int<br>
 let char2 char<br>
@@ -24,88 +24,88 @@ let boolean2 boolean<br>
 let nothing2 nothing<br>
 
 *deleting variables*<br>
-*syntax ~ del `variable-name`*<br>
+*syntax ~ `del <variable>`*<br>
 del string2<br>
 
 *arithmatic operations on variables of int and float type*<br>
-*syntax ~ `opcode` `variable1` `variable2` `variable3`*<br>
+*syntax ~ `<opcode> <variable> <variable> <variable>`*<br>
 add num1 num2 one<br>
 sub num1 num1 num2<br>
 mul float1 float2 float3<br>
 div float2 float2 float3<br>
 
 *displaying variable values*<br>
-*syntax ~ say `variable`*<br>
+*syntax ~ `say <variable>`*<br>
 say string1<br>
 
 *displaying messages*<br>
-*syntax ~ say `message`*<br>
+*syntax ~ `say <message>`*<br>
 say hello fellas<br>
 
 *displaying messages with special characters*<br>
-*syntax ~ say `message` `special-character`*<br>
+*syntax ~ `say <message> <special-character>`*<br>
 [$n]: line-break-character<br>
 [$s]: space-character<br>
 say hello fellas $n<br>
 say hello fellas $s<br>
 
 *taking user input and storing in variables*<br>
-*syntax ~ ask `variable`*<br>
+*syntax ~ `ask <variable>`*<br>
 ask string1<br>
 
 *commenting*<br>
-*syntax ~ ; type here anything*<br>
+*syntax ~ `; type here anything`*<br>
 ; hello fellas<br>
 
 *marking a stage in code*<br>
-*syntax ~ mark `mark-name`*<br>
+*syntax ~ `mark <mark>`*<br>
 mark hello <br>
 
 *for going to a certain mark*<br>
-*syntax ~ goto `mark-name`*<br>
+*syntax ~ `goto <mark>`*<br>
 goto hello<br>
 
 *for comparing the variables and setting off the flags*<br>
-*syntax ~ com `variable1` `variable2`*<br>
+*syntax ~ `com <variable> <variable>`*<br>
 com num1 num2<br>
 
 *for settings flags*<br>
-*syntax ~ set `flag`*<br>
+*syntax ~ `set <flag>`*<br>
 set false<br>
 set true<br>
 set boolean1<br>
 
 *for copying variable values*<br>
-*syntax ~ cpy `variable` `variable`*<br>
+*syntax ~ `cpy <variable> <variable>`*<br>
 cpy num1 num2<br>
 
 *for displaying various things*<br>
-*syntax ~ show `thing`*<br>
+*syntax ~ `show <thing>`*<br>
 show vars<br>
 show flags<br>
 show stack<br>
 
 *for doing nothing*<br>
-*syntax ~ pass*<br>
+*syntax ~ `pass`*<br>
 pass<br>
 
 *if statement*<br>
-*syntax ~ if `flag` ? `command`*<br>
+*syntax ~ `if <flag> ? <command>`*<br>
 if less ? goto hello<br>
 if greater ? say greater<br>
 if equal ? ask string1<br>
 if flag ? pass<br>
 
 *for pushing into stack*<br>
-*syntax ~ push `variable`*<br>
+*syntax ~ `push <variable>`*<br>
 push num1<br>
 
 *for poping from stack*<br>
-*syntax ~ pop `variable`*<br>
+*syntax ~ `pop <variable>`*<br>
 pop num1<br>
 
 *for exiting in between of execution*<br>
-*syntax ~ exit*<br>
+*syntax ~ `exit`*<br>
 exit<br>
 
 ======================================================
