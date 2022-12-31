@@ -149,8 +149,8 @@ for executing with coverage<br>
 
 # Must know
 
-*some basic variables like zero, one, true, false no need to waste time on making them*<br>
+*Some basic variables like zero, one, true, false are already there. So, no need to waste time on making them*<br>
 
-*not understanding what's happening in your code, make sure to run it with coverage to visualize*<br>
+*Not understanding what's happening in your code, make sure to run it with coverage to visualize*<br>
 
-*remember to maintain spaces as Kryoss is space sensitive*<br>
+*Remember to maintain spaces as Kryoss is space sensitive*<br>
