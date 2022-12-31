@@ -92,8 +92,8 @@ pass<br>
 *if statement*<br>
 *syntax ~ `if <flag> ? <command>`*<br>
 if less ? goto hello<br>
-if greater ? say greater<br>
-if equal ? ask string1<br>
+if more ? say greater<br>
+if same ? ask string1<br>
 if flag ? pass<br>
 
 *for pushing into stack*<br>
