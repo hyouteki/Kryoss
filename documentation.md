@@ -154,7 +154,7 @@ for executing with coverage<br>
 
 # Must know
 
-*Some basic variables like zero, one, true, false are already there. So, no need to waste time on making them*<br>
+*Some basic variables like zero, one, true, false are already there. So, no need to waste time on making one yourself*<br>
 
 *Not understanding what's happening in your code, make sure to run it with coverage to visualize*<br>
 
