@@ -141,7 +141,7 @@ contains the number of currently executing command<br>
 *Write your Kryoss program with extension .kry*<br>
 
 ## Step3
-*Run your code with either commands*
+*Run your code with either commands*<br>
 *`python kryoss_compiler.py <file-name.kry>`*<br>
 
 for executing with coverage<br>
