@@ -158,4 +158,6 @@ for executing with coverage<br>
 
 *Not understanding what's happening in your code, make sure to run it with coverage to visualize*<br>
 
+*You can change infiniteRecursionLimit, stackOverflowLimit & other limits from kryoss_config.KryossConfig class*<br>
+
 *Remember to maintain spaces as Kryoss is space sensitive*<br>
