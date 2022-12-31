@@ -1,0 +1,50 @@
+1: let base int
+2: let expo int
+3: say Type the base: $s
+4: ask base
+5: say Type the expo: $s
+6: ask expo
+7: let answer int = 1
+8: let i int = 0
+9: mark start
+10: com i expo
+11: if same ? goto end
+12: mul answer answer base
+13: add i i one
+14: goto start
+9: mark start
+10: com i expo
+11: if same ? goto end
+12: mul answer answer base
+13: add i i one
+14: goto start
+9: mark start
+10: com i expo
+11: if same ? goto end
+12: mul answer answer base
+13: add i i one
+14: goto start
+9: mark start
+10: com i expo
+11: if same ? goto end
+12: mul answer answer base
+13: add i i one
+14: goto start
+9: mark start
+10: com i expo
+11: if same ? goto end
+12: mul answer answer base
+13: add i i one
+14: goto start
+9: mark start
+10: com i expo
+11: if same ? goto end
+12: mul answer answer base
+13: add i i one
+14: goto start
+9: mark start
+10: com i expo
+11: if same ? goto end
+15: mark end
+16: say power is: $s
+17: say answer

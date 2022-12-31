@@ -1,0 +1,2697 @@
+1: let num int
+2: let ret int = 1
+3: say Enter number: $s
+4: ask num
+5: com num one
+6: if less ? goto end
+7: com num one
+8: if same ? goto end
+9: let i int = 2
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+13: mul ret ret i
+14: add i i one
+15: goto start
+10: mark start
+11: com i num
+12: if more ? goto end
+16: mark end
+17: say Factorial: $s
+18: say ret

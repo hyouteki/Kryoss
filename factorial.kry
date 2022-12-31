@@ -1,0 +1,18 @@
+let num int
+let ret int = 1
+say Enter number: $s
+ask num
+com num one
+if less ? goto end
+com num one
+if same ? goto end
+let i int = 2
+mark start
+com i num
+if more ? goto end
+mul ret ret i
+add i i one
+goto start
+mark end
+say Factorial: $s
+say ret

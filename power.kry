@@ -1,0 +1,17 @@
+let base int
+let expo int
+say Type the base: $s
+ask base
+say Type the expo: $s
+ask expo
+let answer int = 1
+let i int = 0
+mark start
+com i expo
+if same ? goto end
+mul answer answer base
+add i i one
+goto start
+mark end
+say power is: $s
+say answer
