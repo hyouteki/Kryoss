@@ -108,8 +108,6 @@ pop num1<br>
 *syntax ~ `exit`*<br>
 exit<br>
 
-======================================================
-
 # Flags
 
 *[less, more, same, error_code, command_number, coverage]*<br>
@@ -134,12 +132,10 @@ exit<br>
 *command number*<br>
 contains the number of currently executing command<br>
 
-======================================================
-
 # Execution command
 
 ## Step1
-*Downloads all the python files in your working directory*<br>
+*Downloads all the python files to your working directory*<br>
 
 ## Step2
 *Write your Kryoss program with extension .kry*<br>
@@ -151,8 +147,6 @@ contains the number of currently executing command<br>
 for executing with coverage<br>
 *`python kryoss_compiler.py <file-name.kry> coverage`*<br>
 
-======================================================
-
 # Must know
 
 *some basic variables like zero, one, true, false no need to waste time on making them*<br>
@@ -160,5 +154,3 @@ for executing with coverage<br>
 *not understanding what's happening in your code, make sure to run it with coverage to visualize*<br>
 
 *remember to maintain spaces as Kryoss is space sensitive*<br>
-
-======================================================
