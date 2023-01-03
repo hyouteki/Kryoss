@@ -147,10 +147,10 @@ contains flag indicating whether to generate a coverage file or not<br>
 
 ## Step3
 *Run your code with either commands*<br>
-*`python kryoss_compiler.py <file-name.kry>`*<br>
+*`python3 kryoss_compiler.py <file-name.kry>`*<br>
 
 for executing with coverage<br>
-*`python kryoss_compiler.py <file-name.kry> coverage`*<br>
+*`python3 kryoss_compiler.py <file-name.kry> coverage`*<br>
 
 # Must know
 
