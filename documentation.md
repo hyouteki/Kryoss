@@ -3,6 +3,7 @@
 
 *defining and initializing variables at same time*<br>
 *syntax ~ `let <variable> <datatype> = <value>`* <br>
+```
 let string1 string = abc<br>
 let num1 int = 0<br>
 let num2 int = 1<br>
@@ -13,6 +14,7 @@ let float2 float = 0.54<br>
 let float3 float = 7.8<br>
 let boolean1 boolean = false<br>
 let nothing1 nothing = null<br>
+```
 
 *defining variables*<br>
 *syntax ~ `let <variable> <datatype>`*<br>
@@ -108,6 +110,15 @@ pop num1<br>
 *syntax ~ `exit`*<br>
 exit<br>
 
+# Config commands
+*for changing stackOverflowLimit[default=100]*<br>
+*syntax ~ `config stackOverflowLimit <value>`*<br>
+config stackOverflowLimit 200<br>
+
+*for changing infiniteRecursionLimit[default=1000]*<br>
+*syntax ~ `config infiniteRecursionLimit <value>`*<br>
+config infiniteRecursionLimit 2000<br>
+
 # Flags
 
 *[less, more, same, error_code, command_number, coverage]*<br>
@@ -159,5 +170,3 @@ for executing with coverage<br>
 *Not understanding what's happening in your code, make sure to run it with coverage to visualize*<br>
 
 *You can change infiniteRecursionLimit, stackOverflowLimit & other limits from kryoss_config.KryossConfig class*<br>
-
-*Remember to maintain spaces as Kryoss is space sensitive*<br>
