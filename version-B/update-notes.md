@@ -19,7 +19,7 @@ Command: say hello $h
 Reason: only $n and $s modifiers are allowed
 ```
 **WrongLimitException**<br>
-*For configuring limit to a wrong value*<br><br>
+*For passing a wrong value in limit*<br><br>
 Sample code:<br>
 ```
 config infiniteRecursionLimit -1
