@@ -30,3 +30,15 @@ Exception occurced at line number 2
 Command: config infiniteRecursionLimit -1
 Reason: adding a wrong limit value
 ```
+**WrongConfigException**<br>
+*For passing a wrong config name*<br><br>
+Sample code:<br>
+```
+config stackOverflowLimitt 100
+```
+Error message:<br>
+```
+Exception occurced at line number 2
+Command: config stackOverflowLimitt 100
+Reason: adding a wrong config name
+```
