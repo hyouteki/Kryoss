@@ -6,7 +6,7 @@ let a int = 1
 let a int=1
 ```
 ## New Exceptions
-**WrongModifierException**<br>
+**WrongModifierException**<br><br>
 *For adding a wrong modifier in say command*<br>
 Sample code:<br>
 ```
@@ -18,7 +18,7 @@ Exception occurced at line number 2
 Command: say hello $h
 Reason: only $n and $s modifiers are allowed
 ```
-**WrongLimitException**<br>
+**WrongLimitException**<br><br>
 *For configuring limit to a wrong value*<br>
 Sample code:<br>
 ```
