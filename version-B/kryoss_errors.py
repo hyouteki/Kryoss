@@ -93,7 +93,20 @@ class ZeroDivisionException(Exception):
     desc = "dividing by zero"
     pass
 
+
 class WrongModifierException(Exception):
     name = "WrongModifierException"
     desc = "only $n and $s modifiers are allowed"
+    pass
+
+
+class WrongLimitException(Exception):
+    name = "WrongLimitException"
+    desc = "adding a wrong limit value"
+    pass
+
+
+class WrongConfigException(Exception):
+    name = "WrongConfigException"
+    desc = "found a wrong config name"
     pass

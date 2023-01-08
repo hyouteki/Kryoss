@@ -553,6 +553,31 @@ def processPopStatement(command: kryoss_classes.Command) -> int:
         makeException(kryoss_errors.EmptyStackException.desc, command)
 
 
+def checkConfigCommand(command: kryoss_classes.Command) -> bool:
+    commandList = command.commandList
+    if (len(commandList) != 3):
+        return False
+    if (commandList[0] != "config"):
+        return False
+    return True
+
+
+def processConfigCommand(command: kryoss_classes.Command):
+    commandList = command.commandList
+    try:
+        value = int(commandList[2])
+    except:
+        makeException(kryoss_errors.WrongLimitException.desc, command)
+    if (value < 0):
+        makeException(kryoss_errors.WrongLimitException.desc, command)
+    if (commandList[1] == "infiniteRecursionLimit"):
+        config.setInfiniteRecursionLimit(value)
+    elif (commandList[1] == "stackOverflowLimit"):
+        config.setStackOverflowLimit(value)
+    else:
+        makeException(kryoss_errors.WrongConfigException.desc, command)
+
+
 def executeCommand(command: kryoss_classes.Command):
     if (checkComment(command)):
         return
@@ -588,6 +613,8 @@ def executeCommand(command: kryoss_classes.Command):
         processPushStatement(command)
     elif (checkPopStatement(command)):
         processPopStatement(command)
+    elif (checkConfigCommand(command)):
+        processConfigCommand(command)
     else:
         makeException(kryoss_errors.InvalidCommandException.desc, command)
 

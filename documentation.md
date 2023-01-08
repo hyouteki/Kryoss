@@ -4,120 +4,154 @@
 *defining and initializing variables at same time*<br>
 *syntax ~ `let <variable> <datatype> = <value>`* <br>
 ```
-let string1 string = abc<br>
-let num1 int = 0<br>
-let num2 int = 1<br>
-let num3 int = 2<br>
-let char1 char = a<br>
-let float1 float = 1.1<br>
-let float2 float = 0.54<br>
-let float3 float = 7.8<br>
-let boolean1 boolean = false<br>
-let nothing1 nothing = null<br>
+let string1 string = abc
+let num1 int = 0
+let num2 int = 1
+let num3 int = 2
+let char1 char = a
+let float1 float = 1.1
+let float2 float = 0.54
+let float3 float = 7.8
+let boolean1 boolean = false
+let nothing1 nothing = null
 ```
 
 *defining variables*<br>
 *syntax ~ `let <variable> <datatype>`*<br>
-let string2 string<br>
-let num4 int<br>
-let char2 char<br>
-let float4 float<br>
-let boolean2 boolean<br>
-let nothing2 nothing<br>
+```
+let string2 string
+let num4 int
+let char2 char
+let float4 float
+let boolean2 boolean
+let nothing2 nothing
+```
 
 *deleting variables*<br>
 *syntax ~ `del <variable>`*<br>
-del string2<br>
+```
+del string2
+```
 
 *arithmatic operations on variables of int and float type*<br>
 *syntax ~ `<opcode> <variable> <variable> <variable>`*<br>
-add num1 num2 one<br>
-sub num1 num1 num2<br>
-mul float1 float2 float3<br>
-div float2 float2 float3<br>
+```
+add num1 num2 one
+sub num1 num1 num2
+mul float1 float2 float3
+div float2 float2 float3
+```
 
 *displaying variable values*<br>
 *syntax ~ `say <variable>`*<br>
-say string1<br>
+```
+say string1
+```
 
 *displaying messages*<br>
 *syntax ~ `say <message>`*<br>
-say hello fellas<br>
+```
+say hello fellas
+```
 
-*displaying messages with special characters*<br>
-*syntax ~ `say <message> <special-character>`*<br>
+*displaying messages with modifiers*<br>
+*syntax ~ `say <message> <modifier>`*<br>
 [$n]: line-break-character<br>
 [$s]: space-character<br>
-say hello fellas $n<br>
-say hello fellas $s<br>
+```
+say hello fellas $n
+say hello fellas $s
+```
 
 *taking user input and storing in variables*<br>
 *syntax ~ `ask <variable>`*<br>
-ask string1<br>
+```
+ask string1
+```
 
 *commenting*<br>
 *syntax ~ `; type here anything`*<br>
-; hello fellas<br>
+```
+; hello fellas
+```
 
 *marking a point in code*<br>
 *syntax ~ `mark <mark>`*<br>
-mark hello <br>
+```
+mark hello
+```
 
 *for going to a certain mark*<br>
 *syntax ~ `goto <mark>`*<br>
-goto hello<br>
+```
+goto hello
+```
 
 *for comparing the variables and setting off the flags*<br>
 *syntax ~ `com <variable> <variable>`*<br>
-com num1 num2<br>
+```
+com num1 num2
+```
 
 *for settings flags*<br>
 *syntax ~ `set <flag>`*<br>
-set false<br>
-set true<br>
-set boolean1<br>
+```
+set false
+set true
+set boolean1
+```
 
 *for copying variable values*<br>
 *syntax ~ `cpy <variable> <variable>`*<br>
-cpy num1 num2<br>
+```
+cpy num1 num2
+```
 
 *for displaying various things*<br>
 *syntax ~ `show <thing>`*<br>
-show vars<br>
-show flags<br>
-show stack<br>
+```
+show vars
+show flags
+show stack
+```
 
 *for doing nothing*<br>
 *syntax ~ `pass`*<br>
-pass<br>
+```
+pass
+```
 
 *if statement*<br>
 *syntax ~ `if <flag> ? <command>`*<br>
-if less ? goto hello<br>
-if more ? say greater<br>
-if same ? ask string1<br>
-if flag ? pass<br>
+```
+if less ? goto hello
+if more ? say greater
+if same ? ask string1
+if flag ? pass
+```
 
 *for pushing into stack*<br>
 *syntax ~ `push <variable>`*<br>
-push num1<br>
-
+```
+push num1
+```
 *for poping from stack*<br>
 *syntax ~ `pop <variable>`*<br>
-pop num1<br>
-
+```
+pop num1
+```
 *for exiting in between of execution*<br>
 *syntax ~ `exit`*<br>
-exit<br>
-
+```
+exit
+```
 # Config commands
-*for changing stackOverflowLimit[default=100]*<br>
-*syntax ~ `config stackOverflowLimit <value>`*<br>
-config stackOverflowLimit 200<br>
-
-*for changing infiniteRecursionLimit[default=1000]*<br>
-*syntax ~ `config infiniteRecursionLimit <value>`*<br>
-config infiniteRecursionLimit 2000<br>
+*for configuring limits*<br>
+*syntax ~ `config <limit> <value>`*<br>
+```
+config stackOverflowLimit 100
+config infiniteRecursionLimit 1000
+```
 
 # Flags
 
@@ -151,17 +185,21 @@ contains flag indicating whether to generate a coverage file or not<br>
 # Execution command
 
 ## Step1
-*Downloads all the python files to your working directory*<br>
+*Downloads all the python files from latest version to your working directory*<br>
 
 ## Step2
 *Write your Kryoss program with extension .kry*<br>
 
 ## Step3
 *Run your code with either commands*<br>
-*`python3 kryoss_compiler.py <file-name.kry>`*<br>
+```
+python3 kryoss_compiler.py <file-name.kry>
+```
 
-for executing with coverage<br>
-*`python3 kryoss_compiler.py <file-name.kry> coverage`*<br>
+*for executing with coverage*<br>
+```
+python3 kryoss_compiler.py <file-name.kry> coverage
+```
 
 # Must know
 
@@ -169,4 +207,4 @@ for executing with coverage<br>
 
 *Not understanding what's happening in your code, make sure to run it with coverage to visualize*<br>
 
-*You can change infiniteRecursionLimit, stackOverflowLimit & other limits from kryoss_config.KryossConfig class*<br>
+*You can change infiniteRecursionLimit, stackOverflowLimit & other limits permanently from kryoss_config.KryossConfig class*<br>

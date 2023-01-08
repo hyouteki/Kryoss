@@ -1,4 +1,32 @@
 # Kryoss version-B update notes
 ## Kryoss is not a space sensitive language anymore
-## Miscellaneous changes
-**Added error[WrongModifierException]**
+*That means both commands are acceptable*
+```
+let a int = 1
+let a int=1
+```
+## New Exceptions
+**WrongModifierException**
+*For adding a wrong modifier in say command*
+Sample code:<br>
+```
+say hello $h
+```
+Error message:<br>
+```
+Exception occurced at line number 2
+Command: say hello $h
+Reason: only $n and $s modifiers are allowed
+```
+**WrongLimitException**
+*For configuring limit to a wrong value*
+Sample code:<br>
+```
+config infiniteRecursionLimit -1
+```
+Error message:<br>
+```
+Exception occurced at line number 2
+Command: config infiniteRecursionLimit -1
+Reason: adding a wrong limit value
+```
