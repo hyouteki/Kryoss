@@ -7,7 +7,7 @@ let a int=1
 ```
 ## New Exceptions
 **WrongModifierException**
-*For adding a wrong modifier in say command*
+*For adding a wrong modifier in say command*<br>
 Sample code:<br>
 ```
 say hello $h
@@ -19,7 +19,7 @@ Command: say hello $h
 Reason: only $n and $s modifiers are allowed
 ```
 **WrongLimitException**
-*For configuring limit to a wrong value*
+*For configuring limit to a wrong value*<br>
 Sample code:<br>
 ```
 config infiniteRecursionLimit -1
