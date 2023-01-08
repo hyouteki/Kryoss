@@ -157,12 +157,12 @@ config infiniteRecursionLimit 1000
 
 *[less, more, same, error_code, command_number, coverage]*<br>
 
-*for less, more & same*<br>
+**For less, more & same**<br>
 [-1]: no-value<br>
 [ 0]: false<br>
 [ 1]: true<br>
 
-*for flags*<br>
+**For Flags and error-codes**<br>
 [-1]: no-value<br>
 [ 0]: false<br>
 [ 1]: true<br>
@@ -170,14 +170,10 @@ config infiniteRecursionLimit 1000
 [ 8]: StackOverflowException<br>
 [ 9]: InfinteRecurrsionException<br>
 
-*for flags*<br>
-[ 0]: false<br>
-[ 1]: true<br>
-
-*command number*<br>
+**Command number**<br>
 contains the number of currently executing command<br>
 
-*coverage*<br>
+**Coverage**<br>
 contains flag indicating whether to generate a coverage file or not<br>
 [ 0]: false<br>
 [ 1]: true<br>
