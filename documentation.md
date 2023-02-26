@@ -1,8 +1,8 @@
 
 # Code examples
 
-*defining and initializing variables at same time*<br>
-*syntax ~ `let <variable> <datatype> = <value>`* <br>
+defining and initializing variables at same time<br> 
+syntax ~ `let <variable> <datatype> = <value>`
 ```
 let string1 string = abc
 let num1 int = 0
@@ -16,8 +16,8 @@ let boolean1 boolean = false
 let nothing1 nothing = null
 ```
 
-*defining variables*<br>
-*syntax ~ `let <variable> <datatype>`*<br>
+defining variables<br>
+syntax ~ `let <variable> <datatype>`
 ```
 let string2 string
 let num4 int
@@ -27,14 +27,14 @@ let boolean2 boolean
 let nothing2 nothing
 ```
 
-*deleting variables*<br>
-*syntax ~ `del <variable>`*<br>
+deleting variables<br>
+syntax ~ `del <variable>`
 ```
 del string2
 ```
 
-*arithmatic operations on variables of int and float type*<br>
-*syntax ~ `<opcode> <variable> <variable> <variable>`*<br>
+arithmatic operations on variables of int and float type<br>
+syntax ~ `<opcode> <variable> <variable> <variable>`
 ```
 add num1 num2 one
 sub num1 num1 num2
@@ -42,87 +42,87 @@ mul float1 float2 float3
 div float2 float2 float3
 ```
 
-*displaying variable values*<br>
-*syntax ~ `say <variable>`*<br>
+displaying variable values<br>
+syntax ~ `say <variable>`
 ```
 say string1
 ```
 
-*displaying messages*<br>
-*syntax ~ `say <message>`*<br>
+displaying messages<br>
+syntax ~ `say <message>`
 ```
 say hello fellas
 ```
 
-*displaying messages with modifiers*<br>
-*syntax ~ `say <message> <modifier>`*<br>
-[$n]: line-break-character<br>
-[$s]: space-character<br>
+displaying messages with modifiers<br>
+syntax ~ `say <message> <modifier>`<br>
+$n: line-break-character<br>
+$s: space-character
 ```
 say hello fellas $n
 say hello fellas $s
 ```
 
-*taking user input and storing in variables*<br>
-*syntax ~ `ask <variable>`*<br>
+taking user input and storing in variables<br>
+syntax ~ `ask <variable>`
 ```
 ask string1
 ```
 
-*commenting*<br>
-*syntax ~ `; type here anything`*<br>
+commenting<br>
+syntax ~ `; type here anything`
 ```
 ; hello fellas
 ```
 
-*marking a point in code*<br>
-*syntax ~ `mark <mark>`*<br>
+marking a point in code<br>
+syntax ~ `mark <mark>`
 ```
 mark hello
 ```
 
-*for going to a certain mark*<br>
-*syntax ~ `goto <mark>`*<br>
+for going to a certain mark<br>
+syntax ~ `goto <mark>`
 ```
 goto hello
 ```
 
-*for comparing the variables and setting off the flags*<br>
-*syntax ~ `com <variable> <variable>`*<br>
+for comparing the variables and setting off the flags<br>
+syntax ~ `com <variable> <variable>`
 ```
 com num1 num2
 ```
 
-*for settings flags*<br>
-*syntax ~ `set <flag>`*<br>
+for setting flags<br>
+syntax ~ `set <flag>`
 ```
 set false
 set true
 set boolean1
 ```
 
-*for copying variable values*<br>
-*syntax ~ `cpy <variable> <variable>`*<br>
+for copying variable values<br>
+syntax ~ `cpy <variable> <variable>`
 ```
 cpy num1 num2
 ```
 
-*for displaying various things*<br>
-*syntax ~ `show <thing>`*<br>
+for displaying various things<br>
+syntax ~ `show <thing>`
 ```
 show vars
 show flags
 show stack
 ```
 
-*for doing nothing*<br>
-*syntax ~ `pass`*<br>
+for doing nothing<br>
+syntax ~ `pass`
 ```
 pass
 ```
 
-*if statement*<br>
-*syntax ~ `if <flag> ? <command>`*<br>
+if statement<br>
+syntax ~ `if <flag> ? <command>`
 ```
 if less ? goto hello
 if more ? say greater
@@ -130,24 +130,24 @@ if same ? ask string1
 if flag ? pass
 ```
 
-*for pushing into stack*<br>
-*syntax ~ `push <variable>`*<br>
+for pushing into stack<br>
+syntax ~ `push <variable>`
 ```
 push num1
 ```
-*for poping from stack*<br>
-*syntax ~ `pop <variable>`*<br>
+for poping from stack<br>
+syntax ~ `pop <variable>`
 ```
 pop num1
 ```
-*for exiting in between of execution*<br>
-*syntax ~ `exit`*<br>
+for exiting in between of execution<br>
+syntax ~ `exit`
 ```
 exit
 ```
 # Config commands
-*for configuring limits*<br>
-*syntax ~ `config <limit> <value>`*<br>
+for configuring limits<br>
+syntax ~ `config <limit> <value>`
 ```
 config stackOverflowLimit 100
 config infiniteRecursionLimit 1000
@@ -155,52 +155,50 @@ config infiniteRecursionLimit 1000
 
 # Flags
 
-*[less, more, same, error_code, command_number, coverage]*<br>
+__Internally flags are stored in an array in this order__<br>
+`[less, more, same, error_code, command_number, coverage]`
 
-**For less, more & same**<br>
-[-1]: no-value<br>
-[ 0]: false<br>
-[ 1]: true<br>
+- __For less, more & same__
+  - -1: no-value
+  - 0: false
+  - 1: true
 
-**For Flags and error-codes**<br>
-[-1]: no-value<br>
-[ 0]: false<br>
-[ 1]: true<br>
-[ 7]: OtherError<br>
-[ 8]: StackOverflowException<br>
-[ 9]: InfinteRecurrsionException<br>
+- __For Flags and error-codes__
+  - -1: no-value
+  - 0: false
+  - 1: true
+  - 7: OtherError
+  - 8: StackOverflowException
+  - 9: InfinteRecurrsionException
 
-**Command number**<br>
-contains the number of currently executing command<br>
+- __Command number__<br>
+  contains the number of currently executing command<br>
 
-**Coverage**<br>
-contains flag indicating whether to generate a coverage file or not<br>
-[ 0]: false<br>
-[ 1]: true<br>
+- __Coverage__<br>
+  contains flag indicating whether to generate a coverage file or not<br>
+  - 0: false
+  - 1: true
 
 # Execution command
 
 ## Step1
-*Downloads all the python files from latest version to your working directory*<br>
+Downloads all the python files from latest version to your working directory
 
 ## Step2
-*Write your Kryoss program with extension .kry*<br>
+Write your Kryoss program with extension .kry
 
 ## Step3
-*Run your code with either commands*<br>
+Run your code with either commands
 ```
 python3 kryoss_compiler.py <file-name.kry>
 ```
-
-*for executing with coverage*<br>
+for executing with coverage
 ```
 python3 kryoss_compiler.py <file-name.kry> coverage
 ```
 
 # Must know
 
-*Some basic variables like zero, one, true, false are already there. So, no need to waste time on making one yourself*<br>
-
-*Not understanding what's happening in your code, make sure to run it with coverage to visualize*<br>
-
-*You can change infiniteRecursionLimit, stackOverflowLimit & other limits permanently from kryoss_config.KryossConfig class*<br>
+- Some basic variables like `zero`, `one`, `true`, `false` are already there. So, no need to waste time on making one yourself.
+- Not understanding what's happening in your code, make sure to run it with coverage to visualize.
+- You can change `infiniteRecursionLimit`, `stackOverflowLimit` & other limits permanently from __kryoss_config.KryossConfig__ class
