@@ -1,3 +1,9 @@
+# Contents
+- [Code examples](#code-examples)
+- [Config commands](#config-commands)
+- [Flags](#flags)
+- [Execution command](#execution-command)
+- [Must know](#must-know)
 
 # Code examples
 
