@@ -21,6 +21,8 @@ let float3 float = 7.8
 let boolean1 boolean = false
 let nothing1 nothing = null
 ```
+> Caution: Using variables to intialize different variables is prohibited and may lead to `TypeMisMatchException`<br>
+> Example: `let num1 int = one`
 
 defining variables<br>
 syntax ~ `let <variable> <datatype>`
