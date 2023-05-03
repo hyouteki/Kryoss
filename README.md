@@ -215,6 +215,6 @@ python3 kryoss_compiler.py <file-name.kry> coverage
 
 # Must know
 
-- Some basic variables like `zero`, `one`, `true`, `false` are already there. So, no need to waste time on making one yourself.
+- Some basic variables like `zero`, `one`, `true`, and `false` are already there. So, no need to waste time on making one yourself.
 - Not understanding what's happening in your code, make sure to run it with coverage to visualize.
 - You can change `infiniteRecursionLimit`, `stackOverflowLimit` & other limits permanently from __kryoss_config.KryossConfig__ class
